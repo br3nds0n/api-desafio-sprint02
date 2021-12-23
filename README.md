@@ -14,7 +14,7 @@ Meu nome é Brendson, venho através desse repositório entregar o desafio do pr
 É muito gratificante ter concluído o desafio, com todo conteúdo aprendido nessa 2° Sprint, que foi colocado
 em prática no desenvolvimento dessa api.
 
-Vamos nessa! <code>#dreambigger🚀🧡</code>
+Agora vamos nessa! <code>#dreambigger🚀🧡</code>
 
 
 
