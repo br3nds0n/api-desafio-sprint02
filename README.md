@@ -63,7 +63,7 @@ Vamos nessa! <code>#dreambigger🚀🧡</code>
 - [ ] Status http
 
 
-## **:star2: Agadrecimentos**
+## **:star2: Agradecimentos**
 
 <div align=center style="width:100%">
 <table>
