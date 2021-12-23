@@ -17,7 +17,16 @@ Vamos nessa! <code>#dreambigger🚀🧡</code>
 > <b>Status code:</b> 🚧 Em construção...  🚧
  
  ## 🧠 Contexto
+ 
+ No primeiro desafio do programa de bolsas, será a criação de uma API cuja funcionalidade assemelha-se ao Trello ou a um
+ Bloco de notas.
+ 
+ Neste projeto estou incluído os métodos http e relacionamento de tabelas , onde implemento os fluxos de:
+ 
+ - Interação de métodos http. (Criar, buscar, editar e remover);
+ - Relacionar tabelas com Sequelize
 
+ 
 ### ⚔️ Desafio
 
 | Atributo        | Tipo     |
@@ -35,13 +44,26 @@ Vamos nessa! <code>#dreambigger🚀🧡</code>
   - [x] Busca por id
 - [x] Editar - PUT
 - [ ] Remover - DELETE
-- [ ] Status - http
 
+### 📓 Submissão
+
+| Atributo                 | Tipo                   |
+| ------------------------ | ---------------------- |
+| Identificador            | `id`                   |
+| Identificador das tarefas| `idTask`               |
+| Relevancia da tarefa     | `texto`                |
+| Data de criação          | `data`                 |
+| Status                   | `Pending, Error, Done` |
+
+**Operações necessárias**
+
+- [ ] Enviar
+- [ ] Listar
+  - [ ] Filtro: task
+- [ ] Status http
 
 
 ## **:star2: Agadrecimentos**
-
-
 
 <div align=center style="width:100%">
 <table>
