@@ -1,6 +1,10 @@
+
 <p align="center">
 <img height="290" width="700" src="https://user-images.githubusercontent.com/82064724/147239690-c00a27b5-f63f-474c-abaa-00b70bf745c5.jpg">
 </p>
+
+<img align="right" src="https://img.shields.io/static/v1?label=project&message=Compass&color=FFA429&style=for-the-badge&logo=ghost"/>
+
 
 # 🚀 Nodejs compass challenge
 
