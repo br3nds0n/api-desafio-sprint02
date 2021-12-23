@@ -1,6 +1,7 @@
+
 {
   "mysql": {
-    "banco-de-dados": "bloco-de-notas",
+    "banco-de-dados": "desafio",
     "usuario": "root",
     "senha": "1234",
     "host": "127.0.0.1"

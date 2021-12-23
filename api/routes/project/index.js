@@ -2,6 +2,8 @@
 
 const roteador = require('express').Router()
 
-app.use('/api/project', (req, res) => {
-  
+roteador.use('/', (req, res) => {
+  res.send('OK')
 })
+
+module.exports = roteador
