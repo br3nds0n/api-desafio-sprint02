@@ -43,7 +43,7 @@ Vamos nessa! <code>#dreambigger🚀🧡</code>
 
 
 
-<div align=center>
+<div align=center style="width:100%">
 <table>
   <tr align=center>
     <th><strong>CompassUol</strong></th>
