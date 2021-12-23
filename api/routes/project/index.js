@@ -52,4 +52,7 @@ roteador.put('/:idProject', async (req, res) => {
   }
 })
 
+const roteadorTask = require('./task')
+roteador.use('/:idProject/task', roteadorTask)
+
 module.exports = roteador
