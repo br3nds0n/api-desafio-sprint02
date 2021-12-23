@@ -28,7 +28,6 @@ Agora vamos nessa! <code>#dreambigger🚀🧡</code>
  
  No primeiro desafio do programa de bolsas, será a criação de uma API cuja funcionalidade assemelha-se ao Trello ou a um
  Bloco de notas.
- 
  Neste projeto estou incluído os métodos http e relacionamento de tabelas , onde implemento os fluxos de:
  
  - Interação de métodos http. (Criar, buscar, editar e remover);
@@ -130,7 +129,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 </div>
 
 
-## ✏ Autor
+## 📝 Autor
+
+Obrigado a todos citados a cima por me ajudarem nessa nova etapa de desafios.
+
+Desenvolvido por:
 
 <div align=left style="width:100%">
 
@@ -145,5 +148,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
     </td>
   </tr>
 </table>
-
 </div>
