@@ -1,7 +1,13 @@
-const ModeloTabela = require('../../models/ModeloTabelaProject')
+const modelos = [
+   require('../../models/ModeloTabelaProject'),
+   require('../../models/ModeloTask')
+]
 
+async function criarTabelas () {
+   for (let i = 0; i < modelos.length; i++) {
+      const modelo = modelos[i]
+      await modelo.sync()
+   }
+}
 
-ModeloTabela
-   .sync()
-   .then(() => console.log('Tabela criada com sucesso!'))
-   .catch(console.log)
+criarTabelas()
