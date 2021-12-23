@@ -1,7 +1,7 @@
 //roteador agrupar as rotas e exportar
 
 const roteador = require('express').Router()
-const TabelaProject = require('./TabelaProject')
+const TabelaProject = require('../../../models/TabelaProject')
 const Project = require('./Project')
 
 roteador.get('/', async (req, res) => {
@@ -27,6 +27,23 @@ roteador.get('/:idProject', async (req, res) => {
           JSON.stringify(project)
       )
   } catch (erro) {
+    res.send(
+      JSON.stringify({
+        mensagem: erro.message
+      })
+    )
+  }
+})
+
+roteador.put('/:idProject', async (req, res) => {
+  try {
+    const id = req.params.idProject
+    const dadosRecebidos = req.body
+    const dados = Object.assign({}, dadosRecebidos, {id: id})
+    const project = new Project(dados)
+    await project.atualizar()
+    res.end()
+  }catch (erro) {
     res.send(
       JSON.stringify({
         mensagem: erro.message

@@ -1,4 +1,4 @@
-const Modelo = require("../../../models/ModeloTabelaProject")
+const Modelo = require("./ModeloTabelaProject")
 
 module.exports = {
   listar() {
@@ -19,5 +19,13 @@ module.exports = {
     }
 
     return encontrado
+  },
+  atualizar (id, dadosParaAtualizar) {
+    return Modelo.update(
+      dadosParaAtualizar,
+      {
+        where: { id: id }
+      }
+    )
   }
 }
