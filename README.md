@@ -70,8 +70,8 @@ Vamos nessa! <code>#dreambigger🚀🧡</code>
   <tr align=center>
     <th><strong>CompassUol</strong></th>
     <th><strong>Felipe Silva</strong></th>
-    <th><strong>Thais Nico</strong></th>
-    <th><strong>Diego Bueno</strong></th>
+    <th><strong>Thais Nicodemus</strong></th>
+    <th><strong>Diego Bueno (amigo do BigBoy)</strong></th>
     <th><strong>Bruna Santos</strong></th>
     <th><strong>Giovanni Hoffmann</strong></th>
   </tr>
