@@ -17,3 +17,24 @@ Vamos nessa! <code>#dreambigger🚀🧡</code>
 > <b>Status code:</b> 🚧 Em construção...  🚧
  
  ## 🧠 Contexto
+
+### ⚔️ Desafio
+
+| Atributo        | Tipo     |
+| --------------- | -------- |
+| Identificador   | `id`     |
+| Titulo          | `texto`  |
+| Descrição       | `texto`  |
+| Data de criação | `data`   |
+| Tarefas         | `lista`  |
+
+**Operações necessárias:**
+
+- [x] Criar - POST
+- [x] Listar - GET
+  - [x] Busca por id
+- [x] Editar - PUT
+- [ ] Remover - DELETE
+- [ ] Status - http
+
+
