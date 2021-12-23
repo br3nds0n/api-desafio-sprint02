@@ -6,7 +6,7 @@
 
 Bem-vindo(a). Este é o desafio da 2° sprint!
 
-Meu nome é Brendson, venho através desse repositório entregar o desafio do progama de bolsas.
+Meu nome é Brendson, venho através desse repositório entregar o desafio do programa de bolsas.
 É muito gratificante ter concluído o desafio, com todo conteúdo aprendido nessa 2° Sprint, que foi colocado
 em prática no desenvolvimento dessa api.
 
