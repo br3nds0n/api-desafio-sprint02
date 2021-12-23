@@ -12,9 +12,13 @@ em prática no desenvolvimento dessa api.
 
 Vamos nessa! <code>#dreambigger🚀🧡</code>
 
+
+
 <br>
 
 > <b>Status code:</b> 🚧 Em construção...  🚧
+ 
+ ---
  
  ## 🧠 Contexto
  
@@ -26,6 +30,7 @@ Vamos nessa! <code>#dreambigger🚀🧡</code>
  - Interação de métodos http. (Criar, buscar, editar e remover);
  - Relacionar tabelas com Sequelize
 
+---
  
 ### ⚔️ Desafio
 
@@ -62,6 +67,7 @@ Vamos nessa! <code>#dreambigger🚀🧡</code>
   - [ ] Filtro: task
 - [ ] Status http
 
+---
 
 ## **:star2: Agradecimentos**
 
