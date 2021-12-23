@@ -34,7 +34,7 @@ Agora vamos nessa! <code>#dreambigger🚀🧡</code>
  - Interação de métodos http. (Criar, buscar, editar e remover);
  - Relacionar tabelas com Sequelize
 
----
+
  
 ### ⚔️ Desafio
 
@@ -71,11 +71,20 @@ Agora vamos nessa! <code>#dreambigger🚀🧡</code>
   - [ ] Filtro: task
 - [ ] Status http
 
----
 
+
+## 🔧 Tecnologias utilizadas
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+* JavaScript
+* NodeJs
+* MySQL
+
+---
 ## **:star2: Agradecimentos**
 
-<div align=center style="width:100%">
+<div align=left style="width:100%">
 <table>
   <tr align=center>
     <th><strong>CompassUol</strong></th>
@@ -120,3 +129,21 @@ Agora vamos nessa! <code>#dreambigger🚀🧡</code>
 
 </div>
 
+
+## ✏ Autor
+
+<div align=left style="width:100%">
+
+<table>
+  <tr align=center>
+    <th><strong>Brendson Victor</strong></th>
+  </tr>
+   <td>
+      <a href="*">
+        <img style="border-radius: 50%" width="120" height="120" src="https://user-images.githubusercontent.com/82064724/147268606-4fd3c629-8cb1-422b-a025-cf20b44930c7.jpeg">
+      </a>
+    </td>
+  </tr>
+</table>
+
+</div>
