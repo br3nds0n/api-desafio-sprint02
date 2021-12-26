@@ -11,11 +11,19 @@ roteador.get('/', async (req, res) => {
 })
 
 roteador.post('/', async (req, res) => {
-  const dadosRecebidos = req.body
-  const project = new Project(dadosRecebidos)
-
-  await project.criar()
-  res.send(JSON.stringify(project))
+  try {
+    const dadosRecebidos = req.body
+    const project = new Project(dadosRecebidos)
+  
+    await project.criar()
+    res.send(JSON.stringify(project))
+  }catch (erro) {
+    res.send(
+      JSON.stringify({
+        mensagem: erro.message
+      })
+    )
+  }
 })
 
 roteador.get('/:idProject', async (req, res) => {

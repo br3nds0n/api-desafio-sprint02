@@ -13,6 +13,7 @@ class Project {
   }
 
   async criar () {
+      this.validar()
       const resultado = await TabelaProject.inserir({
         title: this.title,
         description: this.description,
@@ -53,8 +54,20 @@ class Project {
     await TabelaProject.atualizar(this.id, dadosParaAtualizar)
   }
 
-  async remover () {
+   remover () {
     return TabelaProject.remover(this.id)
+  }
+
+  validar () {
+    const campos = ['title', 'description', 'task']
+
+    campos.forEach(campo => {
+      const valor = this[campo]
+
+      if (typeof valor !== 'string' || valor.length === 0) {
+        throw new Error(`O campo '${campo}' está inválido`)
+      }
+    })
   }
 }
 
