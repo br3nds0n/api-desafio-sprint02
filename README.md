@@ -78,7 +78,7 @@ As seguintes ferramentas foram usadas na construção e testagem do projeto:
 
 <table>
   <tr>
-   <td> <a href="https://www.google.com" target="_blank"><img align="center" alt="nodeJs" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/nodejs/nodejs-original.svg"></a> Node.Js</td>
+   <td> <a href="https://nodejs.org/pt-br/download/" target="blank"><img align="center" alt="nodeJs" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/nodejs/nodejs-original.svg"></a> Node.Js</td>
     <td> <img align="center" alt="mysql" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original.svg">MySQL</td>
     <td> <img align="center" alt="mysql" height="30" width="30" src="https://user-images.githubusercontent.com/82064724/147406769-6a2ebeb5-41a7-484c-a363-dbe3aad72daa.png"> Postman</td>
   </tr>
