@@ -200,5 +200,5 @@ Desenvolvido por:
   <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=[gmail]" /></a>
   
   <a href="//https://github.com/br3nds0n" alt="GitHub">
-  <img src="https://img.shields.io/github/followers/G0nz4g4?label=follow&style=social" /></a>
+  <img src="https://img.shields.io/github/followers/br3nds0n?label=follow&style=social" /></a>
 </p>
