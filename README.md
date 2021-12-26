@@ -125,7 +125,7 @@ As seguintes ferramentas/tecnologias foram usadas na construção e testagem do 
     <th><strong>CompassUol</strong></th>
     <th><strong>Felipe Silva</strong></th>
     <th><strong>Thais Nicodemus</strong></th>
-    <th><strong>Diego Bueno</strong></th>
+    <th><strong>Diego Bueno <br> (Amigo do BigBoy)</strong></th>
     <th><strong>Bruna Santos</strong></th>
     <th><strong>Giovanni Hoffmann</strong></th>
   </tr>
@@ -146,7 +146,7 @@ As seguintes ferramentas/tecnologias foram usadas na construção e testagem do 
     </td>
     <td>
       <a href="*">
-        <img width="120" height="120" src="https://user-images.githubusercontent.com/82064724/147248671-1433631f-d30e-43ef-8a90-11f1eb0dad6e.jpeg">
+        <img width="140" height="120" src="https://user-images.githubusercontent.com/82064724/147248671-1433631f-d30e-43ef-8a90-11f1eb0dad6e.jpeg">
       </a>
     </td>
     <td>
