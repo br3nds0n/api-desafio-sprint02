@@ -31,7 +31,8 @@ Agora vamos nessa! <code>#dreambigger🚀🧡</code>
  Neste projeto estou incluído os métodos http e relacionamento de tabelas , onde implemento os fluxos de:
  
  - Interação de métodos http. (Criar, buscar, editar e remover);
- - Relacionar tabelas com Sequelize
+ - Interação com status http. (sucesso, erro cliente, erro servidor);
+ - Relacionamento de tabelas;
 
 
  
