@@ -6,7 +6,7 @@ const Project = require('./Project')
 
 roteador.get('/', async (req, res) => {
   const resultados = await TabelaProject.listar()
-
+  res.status(200)
   res.send(JSON.stringify(resultados))
 })
 
@@ -14,8 +14,9 @@ roteador.post('/', async (req, res) => {
   try {
     const dadosRecebidos = req.body
     const project = new Project(dadosRecebidos)
-  
     await project.criar()
+
+    res.status(201)
     res.send(JSON.stringify(project))
   }catch (erro) {
     res.send(
@@ -31,6 +32,8 @@ roteador.get('/:idProject', async (req, res) => {
       const id = req.params.idProject
       const project = new Project({ id: id })
       await project.carregar()
+
+      res.status(200)
       res.send(
           JSON.stringify(project)
       )
@@ -49,6 +52,8 @@ roteador.put('/:idProject', async (req, res) => {
     const dadosRecebidos = req.body
     const dados = Object.assign({}, dadosRecebidos, {id: id})
     const project = new Project(dados)
+
+    res.status(204)
     await project.atualizar()
     res.end()
   }catch (erro) {
@@ -66,6 +71,8 @@ roteador.delete('/:idProject', async (req, res) => {
     const project = new Project({ id: id })
     await project.carregar()
     await project.remover()
+
+    res.status(204)
     res.end()
   }catch (erro) {
     res.send(
