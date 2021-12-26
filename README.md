@@ -68,7 +68,7 @@ Agora vamos nessa! <code>#dreambigger🚀🧡</code>
 - [ ] Enviar
 - [ ] Listar
   - [ ] Filtro: task
-- [ ] Status http
+- [x] Status http
 
 ---
 
