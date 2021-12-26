@@ -5,7 +5,6 @@
 
 <img align="right" src="https://img.shields.io/static/v1?label=project&message=Compass&color=FFA429&style=for-the-badge&logo=ghost"/>
 
-
 # 🚀 Nodejs compass challenge
 
 Bem-vindo(a). Este é o desafio da 2° sprint!
@@ -164,6 +163,7 @@ As seguintes ferramentas/tecnologias foram usadas na construção e testagem do 
 
 </div>
 
+<br>
 
 ## 📝 Autor
 
@@ -174,31 +174,22 @@ Desenvolvido com 🧡  por:
 
 <table>
   <tr align=center>
-    <th><strong>Brendson Victor👨‍🚀</strong></th>
+    <th><strong>Brendson Victor 👨‍🚀</strong></th>
   </tr>
    <td>
       <a href="*">
-        <img style="border-radius: 50%" width="140" height="120" src="https://user-images.githubusercontent.com/82064724/147268606-4fd3c629-8cb1-422b-a025-cf20b44930c7.jpeg">
+        <img style="border-radius: 50%" width="160" height="130" src="https://user-images.githubusercontent.com/82064724/147268606-4fd3c629-8cb1-422b-a025-cf20b44930c7.jpeg" > <br> <p align="left">
+   <a href="https://instagram.com/breendson/" alt="Instagram">
+  <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=[instagram]"/></a>
+   <a href="https://www.linkedin.com/in/brendson/" alt="Linkedin">
+  <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=[linkedin]" /></a>                                     
+</p>
       </a>
     </td>
   </tr>
 </table>
 </div>
 
-[gmail]: https//mailto:brendson.net@gmail.com
-[linkedin]: https://www.linkedin.com/in/brendson/
-[instagram]: https://instagram.com/breendson/
+## **:page_with_curl: LICENÇA**
 
-<p align="left">
-   <a href="https://instagram.com/breendson/" alt="Instagram">
-  <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=[instagram]"/></a>
-  
-   <a href="https://www.linkedin.com/in/brendson/" alt="Linkedin">
-  <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=[linkedin]" /></a>                                                                                                                                            
-   
-  <a href="mailto:brendson.net@gmail.com" alt="Gmail">
-  <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=[gmail]" /></a>
-  
-  <a href="//https://github.com/br3nds0n" alt="GitHub">
-  <img src="https://img.shields.io/github/followers/br3nds0n?label=follow&style=social" /></a>
-</p>
+Esse repositório está licenciado pela **MIT LICENSE**. Para mais informações detalhadas, leia o arquivo [LICENSE](./LICENSE) contido nesse repositório.
