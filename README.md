@@ -74,13 +74,13 @@ Agora vamos nessa! <code>#dreambigger🚀🧡</code>
 
 ## 🔧 Tecnologias utilizadas
 
-As seguintes ferramentas foram usadas na construção e testagem do projeto:
+As seguintes ferramentas/tecnologias foram usadas na construção e testagem do projeto. Clicando no icone da tecnologia, você será redirecionado para o site oficial para instalação:
 
-<table>
+ <table>
   <tr>
-   <td> <a href="https://nodejs.org/pt-br/download/" target="blank"><img align="center" alt="nodeJs" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/nodejs/nodejs-original.svg"></a> Node.Js</td>
-    <td> <img align="center" alt="mysql" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original.svg">MySQL</td>
-    <td> <img align="center" alt="mysql" height="30" width="30" src="https://user-images.githubusercontent.com/82064724/147406769-6a2ebeb5-41a7-484c-a363-dbe3aad72daa.png"> Postman</td>
+   <td> <a href="https://nodejs.org/pt-br/download/" target="blank"><img align="center" alt="nodeJs" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/nodejs/nodejs-original.svg"></a>Node.Js</td>
+    <td><a href="https://www.mysql.com/downloads/" target="blank"><img align="center" alt="mysql" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original.svg"></a>MySQL</td>
+    <td><a href="https://www.postman.com/downloads/" target="blank"><img align="center" alt="postman" height="30" width="30" src="https://user-images.githubusercontent.com/82064724/147406769-6a2ebeb5-41a7-484c-a363-dbe3aad72daa.png"></a> Postman</td>
   </tr>
   <tr>
     <td align="center">16.x</td>
@@ -89,8 +89,6 @@ As seguintes ferramentas foram usadas na construção e testagem do projeto:
   </tr>
 </table>
 
-#### Links para baixar:
-Site Oficial do 
 
 ---
 ## **:star2: Agradecimentos**
