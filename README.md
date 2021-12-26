@@ -74,11 +74,23 @@ Agora vamos nessa! <code>#dreambigger🚀🧡</code>
 
 ## 🔧 Tecnologias utilizadas
 
-As seguintes ferramentas foram usadas na construção do projeto:
+As seguintes ferramentas foram usadas na construção e testagem do projeto:
 
-* JavaScript
-* NodeJs
-* MySQL
+<table>
+  <tr>
+   <td> <a href="https://www.google.com" target="_blank"></a> <img align="center" alt="nodeJs" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/nodejs/nodejs-original.svg">Node.Js</td>
+    <td> <img align="center" alt="mysql" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original.svg">MySQL</td>
+    <td> <img align="center" alt="mysql" height="30" width="30" src="https://user-images.githubusercontent.com/82064724/147406769-6a2ebeb5-41a7-484c-a363-dbe3aad72daa.png"> Postman</td>
+  </tr>
+  <tr>
+    <td align="center">16.x</td>
+    <td align="center">8.0</td>
+    <td align="center">9.6</td>
+  </tr>
+</table>
+
+#### Links para baixar:
+Site Oficial do 
 
 ---
 ## **:star2: Agradecimentos**
