@@ -167,8 +167,7 @@ As seguintes ferramentas/tecnologias foram usadas na construção e testagem do 
 
 ## 📝 Autor
 
-Obrigado a todos citados a cima por me ajudarem nessa nova etapa de desafios.
-
+Obrigado a todos citados a cima por me ajudarem nessa nova etapa de desafios. <br>
 Desenvolvido com 🧡  por:
 
 <div align=left style="width:100%">
