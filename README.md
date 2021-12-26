@@ -70,15 +70,44 @@ Agora vamos nessa! <code>#dreambigger🚀🧡</code>
   - [ ] Filtro: task
 - [ ] Status http
 
+---
 
+## 💻 Baixar e executar o projeto
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e o [Postman](https://www.postman.com/downloads/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+### 🎲 Rodando o Back End (servidor)
+
+```bash
+# Clone este repositório
+$ git clone <https://github.com/br3nds0n/api-desafio-sprint02.git>
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd api-desafio-sprint
+
+# Vá para a pasta server
+$ cd api
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação 
+$ npm start
+
+# O projeto inciará na porta:3000 - acesse <http://localhost:3333/api/project> no postman
+```
 
 ## 🔧 Tecnologias utilizadas
 
-As seguintes ferramentas/tecnologias foram usadas na construção e testagem do projeto. Clicando no icone da tecnologia, você será redirecionado para o site oficial para instalação:
+As seguintes ferramentas/tecnologias foram usadas na construção e testagem do projeto. Clicando no icone da tecnologia, você será redirecionado para o site oficial para instalação: <br>
 
  <table>
   <tr>
-   <td> <a href="https://nodejs.org/pt-br/download/" target="blank"><img align="center" alt="nodeJs" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/nodejs/nodejs-original.svg"></a>Node.Js</td>
+   <td><a href="https://nodejs.org/pt-br/download/" target="blank"><img align="center" alt="nodeJs" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/nodejs/nodejs-original.svg"></a>Node.Js</td>
     <td><a href="https://www.mysql.com/downloads/" target="blank"><img align="center" alt="mysql" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original.svg"></a>MySQL</td>
     <td><a href="https://www.postman.com/downloads/" target="blank"><img align="center" alt="postman" height="30" width="30" src="https://user-images.githubusercontent.com/82064724/147406769-6a2ebeb5-41a7-484c-a363-dbe3aad72daa.png"></a> Postman</td>
   </tr>
@@ -87,8 +116,8 @@ As seguintes ferramentas/tecnologias foram usadas na construção e testagem do 
     <td align="center">8.0</td>
     <td align="center">9.6</td>
   </tr>
-</table>
-
+</table> 
+<br>
 
 ---
 ## **:star2: Agradecimentos**
@@ -137,6 +166,7 @@ As seguintes ferramentas/tecnologias foram usadas na construção e testagem do 
 </table>
 
 </div>
+
 
 
 ## 📝 Autor
