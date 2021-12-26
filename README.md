@@ -178,7 +178,7 @@ Desenvolvido com 🧡  por:
   </tr>
    <td>
       <a href="*">
-        <img style="border-radius: 50%" width="160" height="130" src="https://user-images.githubusercontent.com/82064724/147268606-4fd3c629-8cb1-422b-a025-cf20b44930c7.jpeg" > <br> <p align="left">
+        <img style="border-radius: 50%" width="165" height="130" src="https://user-images.githubusercontent.com/82064724/147268606-4fd3c629-8cb1-422b-a025-cf20b44930c7.jpeg" > <br> <p align="left">
    <a href="https://instagram.com/breendson/" alt="Instagram">
   <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=[instagram]"/></a>
    <a href="https://www.linkedin.com/in/brendson/" alt="Linkedin">
