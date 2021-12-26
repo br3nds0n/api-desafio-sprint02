@@ -175,7 +175,7 @@ Desenvolvido com 🧡  por:
 
 <table>
   <tr align=center>
-    <th><strongBrendson Victor👨‍🚀</strong></th>
+    <th><strong>Brendson Victor👨‍🚀</strong></th>
   </tr>
    <td>
       <a href="*">
