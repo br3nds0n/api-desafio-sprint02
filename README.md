@@ -102,7 +102,7 @@ $ npm start
 ```
 <br>
 
-## 🔧 Tecnologias utilizadas
+## 🛠 Tecnologias
 
 As seguintes ferramentas/tecnologias foram usadas na construção e testagem do projeto. Clicando no icone da tecnologia, você será redirecionado para o site oficial para instalação: <br>
 
