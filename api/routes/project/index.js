@@ -10,7 +10,7 @@ roteador.get('/', async (req, res) => {
   const resultados = await TabelaProject.listar()
   res.status(200)
   const serializador = new SerializadorProject(res.getHeader('Content-Type'))
-  serializador.serializar(resultados)
+  res.send(serializador.serializar(resultados))
 })
 
 roteador.post('/', async (req, res, proximo) => {
@@ -36,6 +36,7 @@ roteador.get('/:idProject', async (req, res, proximo) => {
 
     const serializador = new SerializadorProject(res.getHeader('Content-Type'))
     res.send(serializador.serializar(project))
+    
   } catch (erro) {
     proximo(erro)
   }

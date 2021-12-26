@@ -15,6 +15,9 @@ module.exports = {
       }
     })
 
+    encontrado.tasks = await encontrado.getTasks()
+
+    console.log(encontrado)
     if (!encontrado) {
       throw new NaoEncontrado()
     }

@@ -3,6 +3,7 @@
 const Sequelize = require('sequelize')
 const instancia = require('../api/data')
 
+
 const colunas = {
   title:{
       type: Sequelize.STRING,
@@ -15,16 +16,10 @@ const colunas = {
   completed: {
     type: Sequelize.BOOLEAN,
     allowNull: false
-  },
-  tarefas: {
-    type: Sequelize.INTEGER,
-    allowNull: false,
-    references: {
-      model: require('./ModeloTabelaProject'),
-      key: 'id'
-    }
   }
 }
+
+
 
 const opcoes = {
   freezeTablename: true,
@@ -32,4 +27,6 @@ const opcoes = {
   timestamps: true
 }
 
-module.exports = instancia.define('tarefas', colunas, opcoes)
+const Task = instancia.define('task', colunas, opcoes)
+
+module.exports = Task

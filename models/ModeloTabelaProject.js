@@ -1,8 +1,9 @@
 //configurar tabela principal do database
 
+const { HasMany } = require('sequelize')
 const Sequelize = require('sequelize')
 const instancia = require('../api/data')
-
+const ModeloTask = require('./ModeloTask')
 
 const colunas = {
 
@@ -19,10 +20,6 @@ const colunas = {
   description:{
     type: Sequelize.STRING,
     allowNull: false
-  },
-  task: {
-    type: Sequelize.STRING,
-    allowNull: false
   }
 
 }
@@ -33,4 +30,9 @@ const opcoes = {
   timestamps: true
 }
 
-module.exports = instancia.define('desafio', colunas, opcoes)
+
+const Project = instancia.define('project', colunas, opcoes)
+Project.hasMany(ModeloTask)
+ModeloTask.belongsTo(Project)
+
+module.exports = Project

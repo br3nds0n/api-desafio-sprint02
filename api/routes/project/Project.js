@@ -5,11 +5,10 @@ const CampoInvalido = require('../../error/CampoInvalido')
 const DadosNaoFornecidos = require('../../error/DadosNaoFornecidos')
 
 class Project {
-  constructor ({ id, title, description, task, createdAt, updatedAt}) {
+  constructor ({ id, title, description, createdAt, updatedAt}) {
       this.id = id
       this.title = title
       this.description = description
-      this.task = task
       this.createdAt = createdAt
       this.updatedAt = updatedAt
   }
@@ -18,8 +17,7 @@ class Project {
       this.validar()
       const resultado = await TabelaProject.inserir({
         title: this.title,
-        description: this.description,
-        task: this.task
+        description: this.description
       })
 
       this.id = resultado.id
@@ -31,14 +29,14 @@ class Project {
       const encontrado = await TabelaProject.pegarPorId(this.id)
       this.title = encontrado.title
       this.description = encontrado.description
-      this.task = encontrado.task
+      //this.task = encontrado.task
       this.createdAt = encontrado.createdAt
       this.updatedAt = encontrado.updatedAt
   }
 
   async atualizar () {
     await TabelaProject.pegarPorId(this.id)
-    const campos = ['title', 'description', 'task']
+    const campos = ['title', 'description']
     const dadosParaAtualizar = {}
 
     campos.forEach((campo) => {
@@ -61,7 +59,7 @@ class Project {
   }
 
   validar () {
-    const campos = ['title', 'description', 'task']
+    const campos = ['title', 'description']
 
     campos.forEach(campo => {
       const valor = this[campo]
