@@ -52,6 +52,22 @@ roteador.put('/:idProject', async (req, res) => {
   }
 })
 
+roteador.delete('/:idProject', async (req, res) => {
+  try {
+    const id = req.params.idProject
+    const project = new Project({ id: id })
+    await project.carregar()
+    await project.remover()
+    res.end()
+  }catch (erro) {
+    res.send(
+      JSON.stringify({
+        mensagem: erro.message
+      })
+    )
+  }
+})
+
 const roteadorTask = require('./task')
 roteador.use('/:idProject/task', roteadorTask)
 

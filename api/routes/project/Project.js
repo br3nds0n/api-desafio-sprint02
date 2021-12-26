@@ -52,6 +52,10 @@ class Project {
 
     await TabelaProject.atualizar(this.id, dadosParaAtualizar)
   }
+
+  async remover () {
+    return TabelaProject.remover(this.id)
+  }
 }
 
 

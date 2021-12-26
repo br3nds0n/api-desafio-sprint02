@@ -1,3 +1,5 @@
+//criando conexão com o banco de dados e as tabelas 
+
 const modelos = [
    require('../../models/ModeloTabelaProject'),
    require('../../models/ModeloTask')

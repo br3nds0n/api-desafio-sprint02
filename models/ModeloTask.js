@@ -1,3 +1,5 @@
+// representar a tabela 
+
 const Sequelize = require('sequelize')
 const instancia = require('../api/data')
 
