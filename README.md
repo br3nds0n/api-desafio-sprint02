@@ -185,9 +185,9 @@ Desenvolvido por:
 </table>
 </div>
 
-[gmail]: https//mailto:Bryan.brasil.bl@gmail.com
-[linkedin]: https://www.linkedin.com/in/bryan-lucas-b37757209/
-[instagram]: https://www.instagram.com/bryan_llucass/
+[gmail]: https//mailto:brendson.net@gmail.com
+[linkedin]: https://www.linkedin.com/in/brendson/
+[instagram]: https://instagram.com/breendson/
 
 <p align="left">
    <a href="https://instagram.com/breendson/" alt="Instagram">
@@ -199,6 +199,6 @@ Desenvolvido por:
   <a href="mailto:brendson.net@gmail.com" alt="Gmail">
   <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=[gmail]" /></a>
   
-  <a href="//https://github.com/BryanLucasCabral" alt="GitHub">
+  <a href="//https://github.com/br3nds0n" alt="GitHub">
   <img src="https://img.shields.io/github/followers/G0nz4g4?label=follow&style=social" /></a>
 </p>
