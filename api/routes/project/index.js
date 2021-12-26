@@ -19,6 +19,7 @@ roteador.post('/', async (req, res) => {
     res.status(201)
     res.send(JSON.stringify(project))
   }catch (erro) {
+    res.status(400)
     res.send(
       JSON.stringify({
         mensagem: erro.message
@@ -38,6 +39,7 @@ roteador.get('/:idProject', async (req, res) => {
           JSON.stringify(project)
       )
   } catch (erro) {
+    res.status(404)
     res.send(
       JSON.stringify({
         mensagem: erro.message
@@ -57,6 +59,7 @@ roteador.put('/:idProject', async (req, res) => {
     await project.atualizar()
     res.end()
   }catch (erro) {
+    res.status(400)
     res.send(
       JSON.stringify({
         mensagem: erro.message
@@ -75,6 +78,7 @@ roteador.delete('/:idProject', async (req, res) => {
     res.status(204)
     res.end()
   }catch (erro) {
+    res.status(404)
     res.send(
       JSON.stringify({
         mensagem: erro.message
