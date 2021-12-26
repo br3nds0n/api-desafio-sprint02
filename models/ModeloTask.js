@@ -13,7 +13,7 @@ const colunas = {
     allowNull: false
   },
   completed: {
-    type: Sequelize.ENUM('true', 'false'),
+    type: Sequelize.BOOLEAN,
     allowNull: false
   },
   tarefas: {

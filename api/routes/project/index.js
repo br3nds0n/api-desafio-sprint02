@@ -4,11 +4,13 @@ const roteador = require('express').Router()
 const TabelaProject = require('../../../models/TabelaProject')
 const NaoEncontrado = require('../../error/NaoEncontrado')
 const Project = require('./Project')
+const SerializadorProject = require('../../Serializador').SerializadorProject
 
 roteador.get('/', async (req, res) => {
   const resultados = await TabelaProject.listar()
   res.status(200)
-  res.send(JSON.stringify(resultados))
+  const serializador = new SerializadorProject(res.getHeader('Content-Type'))
+  serializador.serializar(resultados)
 })
 
 roteador.post('/', async (req, res, proximo) => {
@@ -18,7 +20,8 @@ roteador.post('/', async (req, res, proximo) => {
     await project.criar()
 
     res.status(201)
-    res.send(JSON.stringify(project))
+    const serializador = new SerializadorProject(res.getHeader('Content-Type'))
+    res.send(serializador.serializar(project))
   } catch (erro) {
     proximo(erro)
   }
@@ -29,9 +32,10 @@ roteador.get('/:idProject', async (req, res, proximo) => {
     const id = req.params.idProject
     const project = new Project({ id: id })
     await project.carregar()
-
     res.status(200)
-    res.send(JSON.stringify(project))
+
+    const serializador = new SerializadorProject(res.getHeader('Content-Type'))
+    res.send(serializador.serializar(project))
   } catch (erro) {
     proximo(erro)
   }
