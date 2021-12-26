@@ -123,7 +123,7 @@ As seguintes ferramentas/tecnologias foram usadas na construção e testagem do 
 <table>
   <tr align=center>
     <th><strong>CompassUol</strong></th>
-    <th><strong>Felipe Silva</strong></th>
+    <th><strong>Felipe da Silva</strong></th>
     <th><strong>Thais Nicodemus</strong></th>
     <th><strong>Diego Bueno <br> (Amigo do BigBoy)</strong></th>
     <th><strong>Bruna Santos</strong></th>
