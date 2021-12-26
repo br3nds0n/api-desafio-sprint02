@@ -51,7 +51,7 @@ Agora vamos nessa! <code>#dreambigger🚀🧡</code>
 - [x] Listar - GET
   - [x] Busca por id
 - [x] Editar - PUT
-- [ ] Remover - DELETE
+- [x] Remover - DELETE
 
 ### 📓 Submissão
 
