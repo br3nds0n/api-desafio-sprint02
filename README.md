@@ -190,6 +190,8 @@ Desenvolvido com 🧡  por:
 </table>
 </div>
 
+---
+
 ## **:page_with_curl: LICENÇA**
 
 Esse repositório está licenciado pela **MIT LICENSE**. Para mais informações detalhadas, leia o arquivo [LICENSE](./LICENSE) contido nesse repositório.
