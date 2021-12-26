@@ -86,10 +86,10 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 # Clone este repositório
 $ git clone <https://github.com/br3nds0n/api-desafio-sprint02.git>
 
-# Acesse a pasta do projeto no terminal/cmd
+# Acesse a pasta do projeto no terminal
 $ cd api-desafio-sprint
 
-# Vá para a pasta server
+# Vá para a pasta api
 $ cd api
 
 # Instale as dependências
