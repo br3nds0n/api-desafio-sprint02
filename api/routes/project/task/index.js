@@ -1,8 +1,10 @@
-const roteador = require('express').Router()
+const roteador = require('express').Router({ mergeParams: true })
+const Tabela = require('../../../../models/TabelaTask')
 
-roteador.get('/', (req, res) => {
+roteador.get('/', async (req, res) => {
+  const tasks = await Tabela.listar(req.params.idProject)
   res.send(
-    JSON.stringify([])
+    JSON.stringify(tasks)
   )
 })
 

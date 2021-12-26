@@ -1,13 +1,12 @@
-// representar a tabela 
+// representar a tabela
 
 const Sequelize = require('sequelize')
 const instancia = require('../api/data')
 
-
 const colunas = {
-  title:{
-      type: Sequelize.STRING,
-      allowNull: false
+  title: {
+    type: Sequelize.STRING,
+    allowNull: false
   },
   taskRelevance: {
     type: Sequelize.INTEGER,
@@ -15,11 +14,10 @@ const colunas = {
   },
   completed: {
     type: Sequelize.BOOLEAN,
+    defaultValue: true,
     allowNull: false
   }
 }
-
-
 
 const opcoes = {
   freezeTablename: true,

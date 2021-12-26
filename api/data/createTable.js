@@ -1,4 +1,4 @@
-//criando conexão com o banco de dados e as tabelas 
+//criando tabelas no banco de dados 
 
 const modelos = [
    require('../../models/ModeloTabelaProject'),
