@@ -169,17 +169,17 @@ As seguintes ferramentas/tecnologias foram usadas na construção e testagem do 
 
 Obrigado a todos citados a cima por me ajudarem nessa nova etapa de desafios.
 
-Desenvolvido por:
+Desenvolvido com 🧡  por:
 
 <div align=left style="width:100%">
 
 <table>
   <tr align=center>
-    <th><strong>Brendson Victor</strong></th>
+    <th><strong>Brendson Victor 👨🏼‍🚀</strong></th>
   </tr>
    <td>
       <a href="*">
-        <img style="border-radius: 50%" width="120" height="120" src="https://user-images.githubusercontent.com/82064724/147268606-4fd3c629-8cb1-422b-a025-cf20b44930c7.jpeg">
+        <img style="border-radius: 50%" width="140" height="120" src="https://user-images.githubusercontent.com/82064724/147268606-4fd3c629-8cb1-422b-a025-cf20b44930c7.jpeg">
       </a>
     </td>
   </tr>
