@@ -79,7 +79,7 @@ Agora vamos nessa! <code>#dreambigger🚀🧡</code>
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Postman](https://www.postman.com/downloads/) e o banco de 
 dados [MySQL](https://www.mysql.com/downloads/). 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
 ### 🎲 Rodando o Back End (servidor)
 
@@ -101,6 +101,39 @@ $ npm start
 
 # O projeto inciará na porta:3000 - acesse <http://localhost:3333/api/project> no postman
 ```
+
+### 🗃 Conectando com o localHost (database)
+Na pasta do projeto, encontre a pasta config.
+dentro da pasta config terá um arquivo JSON, nesse arquivo você passará a conexão do banco de dados.
+
+```javascript
+// Exemplo:
+{
+  "mysql": {
+    "banco-de-dados": "desafio",
+    "usuario": "root", 
+    "senha": "1234",
+    "host": "127.0.0.1"
+  },
+  "api": {
+    "porta": 3000
+  }
+}
+// OBS: Acime é apenas uma demonstração, você passará as informações da sua máquina.
+```
+
+### 📂 Criando as Tabelas (database)
+
+```bash
+# Acesse a pasta do projeto no terminal
+$ cd api-desafio-sprint
+
+# Execute o comando
+$ node api/data/createTable.js
+
+# As tabelas serão criadas no seu Banco de dados - acesse seu Workbench e confira
+```
+
 <br>
 
 ## 🛠 Tecnologias
