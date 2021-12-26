@@ -1,6 +1,8 @@
 // representar a tabela 
 
 const TabelaProject = require('../../../models/TabelaProject')
+const CampoInvalido = require('../../error/CampoInvalido')
+const DadosNaoFornecidos = require('../../error/DadosNaoFornecidos')
 
 class Project {
   constructor ({ id, title, description, task, createdAt, updatedAt}) {
@@ -48,13 +50,13 @@ class Project {
     })
 
     if (Object.keys(dadosParaAtualizar).length === 0) {
-      throw new Error('Não foram fornecidos dados para atualizar')
+      throw new DadosNaoFornecidos()
     }
 
     await TabelaProject.atualizar(this.id, dadosParaAtualizar)
   }
 
-   remover () {
+  remover () {
     return TabelaProject.remover(this.id)
   }
 
@@ -65,7 +67,7 @@ class Project {
       const valor = this[campo]
 
       if (typeof valor !== 'string' || valor.length === 0) {
-        throw new Error(`O campo '${campo}' está inválido`)
+        throw new CampoInvalido(campo)
       }
     })
   }

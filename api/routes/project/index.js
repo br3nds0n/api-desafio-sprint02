@@ -2,6 +2,7 @@
 
 const roteador = require('express').Router()
 const TabelaProject = require('../../../models/TabelaProject')
+const NaoEncontrado = require('../../error/NaoEncontrado')
 const Project = require('./Project')
 
 roteador.get('/', async (req, res) => {
@@ -10,7 +11,7 @@ roteador.get('/', async (req, res) => {
   res.send(JSON.stringify(resultados))
 })
 
-roteador.post('/', async (req, res) => {
+roteador.post('/', async (req, res, proximo) => {
   try {
     const dadosRecebidos = req.body
     const project = new Project(dadosRecebidos)
@@ -18,57 +19,40 @@ roteador.post('/', async (req, res) => {
 
     res.status(201)
     res.send(JSON.stringify(project))
-  }catch (erro) {
-    res.status(400)
-    res.send(
-      JSON.stringify({
-        mensagem: erro.message
-      })
-    )
-  }
-})
-
-roteador.get('/:idProject', async (req, res) => {
-  try {
-      const id = req.params.idProject
-      const project = new Project({ id: id })
-      await project.carregar()
-
-      res.status(200)
-      res.send(
-          JSON.stringify(project)
-      )
   } catch (erro) {
-    res.status(404)
-    res.send(
-      JSON.stringify({
-        mensagem: erro.message
-      })
-    )
+    proximo(erro)
   }
 })
 
-roteador.put('/:idProject', async (req, res) => {
+roteador.get('/:idProject', async (req, res, proximo) => {
+  try {
+    const id = req.params.idProject
+    const project = new Project({ id: id })
+    await project.carregar()
+
+    res.status(200)
+    res.send(JSON.stringify(project))
+  } catch (erro) {
+    proximo(erro)
+  }
+})
+
+roteador.put('/:idProject', async (req, res, proximo) => {
   try {
     const id = req.params.idProject
     const dadosRecebidos = req.body
-    const dados = Object.assign({}, dadosRecebidos, {id: id})
+    const dados = Object.assign({}, dadosRecebidos, { id: id })
     const project = new Project(dados)
 
     res.status(204)
     await project.atualizar()
     res.end()
-  }catch (erro) {
-    res.status(400)
-    res.send(
-      JSON.stringify({
-        mensagem: erro.message
-      })
-    )
+  } catch (erro) {
+    proximo(erro)
   }
 })
 
-roteador.delete('/:idProject', async (req, res) => {
+roteador.delete('/:idProject', async (req, res, proximo) => {
   try {
     const id = req.params.idProject
     const project = new Project({ id: id })
@@ -77,13 +61,8 @@ roteador.delete('/:idProject', async (req, res) => {
 
     res.status(204)
     res.end()
-  }catch (erro) {
-    res.status(404)
-    res.send(
-      JSON.stringify({
-        mensagem: erro.message
-      })
-    )
+  } catch (erro) {
+    proximo(erro)
   }
 })
 
