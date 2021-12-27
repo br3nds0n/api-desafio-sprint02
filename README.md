@@ -209,7 +209,7 @@ grato a cada um de vocês por todo apoio e atenção dada, ao decorrer da sprint
 É muito gratificante participar desse programa, e ter o apoido dessa equipe.<code>#dreambigger🚀🧡</code> <br>
 
 
-<div align=left style="width:100%">
+<div align=left>
  
 - <table>
  <p> Desenvolvido por:</p>
@@ -218,7 +218,7 @@ grato a cada um de vocês por todo apoio e atenção dada, ao decorrer da sprint
   </tr>
    <td>
       <a href="https://github.com/br3nds0n">
-        <img style="border-radius: 50%" width="168" height="140" src="https://user-images.githubusercontent.com/82064724/147268606-4fd3c629-8cb1-422b-a025-cf20b44930c7.jpeg" > <p align="left">
+        <img width="168" height="140" src="https://user-images.githubusercontent.com/82064724/147268606-4fd3c629-8cb1-422b-a025-cf20b44930c7.jpeg" > <p align="left">
    <a href="https://instagram.com/breendson/" alt="Instagram">
   <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=[instagram]"/></a>
    <a href="https://www.linkedin.com/in/brendson/" alt="Linkedin">
