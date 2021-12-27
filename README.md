@@ -152,7 +152,7 @@ POST será gerado um `id` atumáicamente, nesse caso id = 1. Exemplo:
 <br>
  
 > Agora vamos passar as tarefas usando a url passada vamos acrescentar o id gerado a cima junto com a rota `task`, url: <http://localhost:30000/api/project/1/task>.
-Usando o `POST` agora vamos passas as tasks. Exemplo:
+Usando o `POST` vamos passar as tasks. Exemplo:
 
 ```json 
 {
