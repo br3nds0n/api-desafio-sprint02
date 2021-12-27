@@ -4,7 +4,7 @@ const Task = require("./ModeloTask")
 
 module.exports = {
   listar() {
-    this.pegarPorId()
+
     return Modelo.findAll()
   },
   inserir(project) {
@@ -14,13 +14,16 @@ module.exports = {
     const encontrado = await Modelo.findOne({
       where: {
         id: id
-      }
-     // include: Task
+      },
+      include: Task
     })
-    
+  
+
     if (!encontrado) {
       throw new NaoEncontrado()
     }
+   
+    console.log(encontrado.toJSON())
 
     return encontrado
   },

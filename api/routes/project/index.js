@@ -6,6 +6,7 @@ const NaoEncontrado = require('../../error/NaoEncontrado')
 const Project = require('./Project')
 const SerializadorProject = require('../../Serializador').SerializadorProject
 
+
 roteador.get('/', async (req, res) => {
   const resultados = await TabelaProject.listar()
  
@@ -38,6 +39,7 @@ roteador.get('/:idProject', async (req, res, proximo) => {
 
     const serializador = new SerializadorProject(res.getHeader('Content-Type'))
     res.send(serializador.serializar(project))
+    
     
   } catch (erro) {
     proximo(erro)

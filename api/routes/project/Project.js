@@ -4,13 +4,15 @@ const TabelaProject = require('../../../models/TabelaProject')
 const CampoInvalido = require('../../error/CampoInvalido')
 const DadosNaoFornecidos = require('../../error/DadosNaoFornecidos')
 
+
 class Project {
-  constructor ({ id, title, description, createdAt, updatedAt}) {
+  constructor ({ id, title, description, createdAt, updatedAt, tasks}) {
       this.id = id
       this.title = title
       this.description = description
       this.createdAt = createdAt
       this.updatedAt = updatedAt
+      this.tasks = tasks 
   }
 
   async criar () {
@@ -29,9 +31,9 @@ class Project {
       const encontrado = await TabelaProject.pegarPorId(this.id)
       this.title = encontrado.title
       this.description = encontrado.description
-      //this.task = encontrado.task
       this.createdAt = encontrado.createdAt
       this.updatedAt = encontrado.updatedAt
+      this.tasks = encontrado.tasks 
   }
 
   async atualizar () {
