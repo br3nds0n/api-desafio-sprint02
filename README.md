@@ -104,10 +104,8 @@ $ npm start
 
 ### 🗃 Conectando com o localHost (database)
 Na pasta do projeto, encontre a pasta config.
-dentro da pasta config terá um arquivo JSON, nesse arquivo você passará a conexão do banco de dados.
-
-```javascript
-// Exemplo:
+dentro da pasta config terá um arquivo JSON, nesse arquivo você passará a conexão do banco de dados. Exemplo:
+```json 
 {
   "mysql": {
     "banco-de-dados": "desafio",
@@ -119,8 +117,8 @@ dentro da pasta config terá um arquivo JSON, nesse arquivo você passará a con
     "porta": 3000
   }
 }
-// OBS: Acima é apenas uma demonstração, você passará as informações da sua máquina.
 ```
+OBS: Acima é apenas uma demonstração, você passará as informações da sua máquina.
 
 ### 📂 Criando as Tabelas (database)
 
