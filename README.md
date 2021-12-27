@@ -118,7 +118,7 @@ dentro dessa pasta terá um arquivo `default.json`, nesse arquivo você passará
   }
 }
 ```
-OBS: Acima é apenas uma demonstração, você passará as informações da sua máquina.
+> ⚠️Obs: Acima é apenas uma demonstração, você passará as informações da sua máquina.
 
 ### 📂 Criando as Tabelas (database)
 
