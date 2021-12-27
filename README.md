@@ -119,7 +119,7 @@ dentro da pasta config terá um arquivo JSON, nesse arquivo você passará a con
     "porta": 3000
   }
 }
-// OBS: Acime é apenas uma demonstração, você passará as informações da sua máquina.
+// OBS: Acima é apenas uma demonstração, você passará as informações da sua máquina.
 ```
 
 ### 📂 Criando as Tabelas (database)
