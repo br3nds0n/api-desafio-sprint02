@@ -135,6 +135,37 @@ $ node api/data/createTable.js
 
 # As tabelas serão criadas no seu Banco de dados - acesse seu Workbench e confira
 ```
+<br>
+
+### 📝 Testes (api)
+
+> Vamos agora para a fase de testes, no [postman](https://www.postman.com/downloads/) vamos acessar a url do projeto,
+que no teste é <http://localhost:30000/api/project>. Usando o método `POST` vamos criar o primeiro project. Após a realização do 
+POST será gerado um `id` atumáicamente, nesse caso id = 1. Exemplo:
+
+```json 
+{
+ "title": "controle de estoque",
+ "description": "responsável por acompanhar o fluxo de mercadoria da empresa."
+}
+```
+<br>
+ 
+> Agora vamos passar as tarefas usando a url passada vamos acrescentar o id gerado a cima junto com a rota `task`, url: <http://localhost:30000/api/project/1/task>.
+Usando o `POST` agora vamos passas as tasks. Exemplo:
+
+```json 
+{
+ "title": "desenvolver endpoint para cadastro de produtos",
+ "taskRelevance": 10,
+ "completed": false
+},
+{
+ "title": "desenvolver endpoint para realizar baixa de produtos",
+ "taskRelevance": 10,
+ "completed": false
+}
+```
 
 <br>
 
