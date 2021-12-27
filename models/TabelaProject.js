@@ -1,8 +1,10 @@
 const Modelo = require("./ModeloTabelaProject")
 const NaoEncontrado = require('../api/error/NaoEncontrado')
+const Task = require("./ModeloTask")
 
 module.exports = {
   listar() {
+    this.pegarPorId()
     return Modelo.findAll()
   },
   inserir(project) {
@@ -13,11 +15,9 @@ module.exports = {
       where: {
         id: id
       }
+     // include: Task
     })
-
-    encontrado.tasks = await encontrado.getTasks()
-
-    console.log(encontrado)
+    
     if (!encontrado) {
       throw new NaoEncontrado()
     }

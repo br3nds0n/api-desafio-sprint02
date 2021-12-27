@@ -8,8 +8,10 @@ const SerializadorProject = require('../../Serializador').SerializadorProject
 
 roteador.get('/', async (req, res) => {
   const resultados = await TabelaProject.listar()
+ 
   res.status(200)
   const serializador = new SerializadorProject(res.getHeader('Content-Type'))
+  
   res.send(serializador.serializar(resultados))
 })
 
