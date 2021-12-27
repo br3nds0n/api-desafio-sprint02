@@ -103,8 +103,8 @@ $ npm start
 ```
 
 ### 🗃 Conectando com o localHost (database)
-Na pasta do projeto, encontre a pasta config.
-dentro da pasta config terá um arquivo JSON, nesse arquivo você passará a conexão do banco de dados. Exemplo:
+Na pasta do projeto, procure pela pasta config.
+dentro dessa pasta terá um arquivo `default.json`, nesse arquivo você passará a conexão do banco de dados. Exemplo:
 ```json 
 {
   "mysql": {
