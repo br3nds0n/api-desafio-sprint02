@@ -1,4 +1,4 @@
-const TabelaTask = require('../../../../models/TabelaTask')
+const TabelaTask = require('../../models/TabelaTask')
 
 class Task {
   constructor ({ id, title, taskRelevance, completed, projectId, createdAt, updatedAt  }) {

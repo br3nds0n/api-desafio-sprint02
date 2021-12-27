@@ -1,6 +1,6 @@
 // aqui recebo e converto o conteúdo para JSON
 
-const ValorNaoSuportado = require('./error/ValorNaoSuportado')
+const ValorNaoSuportado = require('../error/ValorNaoSuportado')
 
 class Serializador {
   json (dados) {
