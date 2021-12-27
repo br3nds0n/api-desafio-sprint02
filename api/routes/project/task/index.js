@@ -12,7 +12,7 @@ roteador.get('/', async (req, res) => {
 roteador.post('/', async (req, res)=> {
   const idProject = req.params.idProject
   const corpo = req.body
-  const dados = Object.assign({}, corpo, { projecrId: idProject})
+  const dados = Object.assign({}, corpo, { projectId: idProject})
   const task = new Task(dados)
   await task.criar()
   res.status(201)

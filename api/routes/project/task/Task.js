@@ -22,6 +22,7 @@ class Task {
     this.id = resultado.id
     this.createdAt = resultado.createdAt
     this.updatedAt = resultado.updatedAt
+
   }
 }
 
