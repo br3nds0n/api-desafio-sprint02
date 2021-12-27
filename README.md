@@ -74,7 +74,7 @@ Agora vamos nessa! <code>#dreambigger🚀🧡</code>
 
 ## 💻 Baixar e executar o projeto
 
-### Pré-requisitos
+###  Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Postman](https://www.postman.com/downloads/) e o banco de 
