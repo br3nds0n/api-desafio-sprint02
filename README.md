@@ -137,6 +137,8 @@ $ node api/data/createTable.js
 ```
 <br>
 
+---
+
 ### 📝 Testes (api)
 
 > Chegamos a fase de testes, no [postman](https://www.postman.com/downloads/) vamos acessar a url do projeto,
