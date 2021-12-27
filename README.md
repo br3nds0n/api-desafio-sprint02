@@ -64,7 +64,7 @@ Agora vamos nessa! <code>#dreambigger🚀🧡</code>
 | Relevancia da tarefa     | `number`               |
 | completada               | `bolean`               |
 | Data de criação          | `data`                 |
-
+| Status                   | `Pending, Error, Done` |
 
 **Operações necessárias:**
 
@@ -72,7 +72,7 @@ Agora vamos nessa! <code>#dreambigger🚀🧡</code>
 - [x] Listar - GET
   - [x] buscar por id 
   - [ ] Filtro: task 
-
+- [ ] Status http
 
 ---
 
