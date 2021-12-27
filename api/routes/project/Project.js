@@ -1,8 +1,8 @@
 // representar a tabela 
 
-const TabelaProject = require('../../models/TabelaProject')
-const CampoInvalido = require('../error/CampoInvalido')
-const DadosNaoFornecidos = require('../error/DadosNaoFornecidos')
+const TabelaProject = require('../../../models/TabelaProject')
+const CampoInvalido = require('../../error/CampoInvalido')
+const DadosNaoFornecidos = require('../../error/DadosNaoFornecidos')
 
 
 class Project {
