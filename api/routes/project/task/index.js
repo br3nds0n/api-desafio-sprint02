@@ -9,15 +9,19 @@ roteador.get('/', async (req, res) => {
   )
 })
 
-roteador.post('/', async (req, res)=> {
-  const idProject = req.params.idProject
-  const corpo = req.body
-  const dados = Object.assign({}, corpo, { projectId: idProject})
-  const task = new Task(dados)
-  await task.criar()
-  res.status(201)
-
-  res.send(task)
+roteador.post('/', async (req, res, proximo)=> {
+    try {
+      const idProject = req.params.idProject
+      const corpo = req.body
+      const dados = Object.assign({}, corpo, { projectId: idProject})
+      const task = new Task(dados)
+      await task.criar()
+      res.status(201)
+    
+      res.send(task)
+    } catch (erro) {
+      proximo(erro)
+    }
 })
 
 roteador.delete('/:id', async (req, res) => {

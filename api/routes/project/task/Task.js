@@ -11,7 +11,22 @@ class Task {
     this.updatedAt = updatedAt
   }
 
+  validar () {
+    if (typeof this.title !== 'string' || this.title.length === 0){
+      throw new Error('O campo title está inválido!')
+    }
+
+    if (typeof  this.taskRelevance !== 'number' || this.completed === 0) {
+      throw new Error('O campo taskRelevance está inválido!')
+    }
+
+    if (typeof this.completed !== 'boolean'){
+      throw new Error('O campo completed está inválido!')
+    }
+  }
+
   async criar () {
+    this.validar()
     const resultado = await TabelaTask.inserir({
       title: this.title,
       taskRelevance: this.taskRelevance,
