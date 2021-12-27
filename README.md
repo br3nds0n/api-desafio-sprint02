@@ -204,11 +204,11 @@ Obrigado a todos citados a cima por me ajudarem nessa nova etapa de desafios, so
 grato a cada um de vocês por todo apoio e atenção dada, ao decorrer da sprint.
 É muito gratificante participar desse programa, e ter o apoido dessa equipe.<code>#dreambigger🚀🧡</code> <br>
 
-Desenvolvido com 🧡  por:
 
 <div align=left style="width:100%">
-
-<table>
+ 
+- <table>
+ <p> Desenvolvido por:</p>
   <tr align=center>
     <th><strong> Brendson Victor 👨‍🚀</strong></th>
   </tr>
