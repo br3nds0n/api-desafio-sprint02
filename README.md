@@ -192,7 +192,7 @@ As seguintes ferramentas/tecnologias foram usadas na construção e testagem do 
     <th><strong>CompassUol</strong></th>
     <th><strong>Felipe da Silva</strong></th>
     <th><strong>Thais Nicodemus</strong></th>
-   <th><strong>Diego Bueno <br>bigboy's friend</strong></th>
+   <th><strong>Diego Bueno <br>bigboss friend</strong></th>
     <th><strong>Bruna Santos</strong></th>
     <th><strong>Giovanni Hoffmann</strong></th>
   </tr>
