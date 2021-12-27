@@ -140,8 +140,8 @@ $ node api/data/createTable.js
 ### 📝 Testes (api)
 
 > Chegamos a fase de testes, no [postman](https://www.postman.com/downloads/) vamos acessar a url do projeto,
-que no teste é <http://localhost:30000/api/project>. Usando o método `POST` vamos criar o primeiro project. Após a realização do 
-POST será gerado um `id` atumáicamente, nesse caso id = 1. Exemplo:
+que no teste é <http://localhost:30000/api/project>. Usando o método `POST` vamos criar o primeiro project. <br>
+> Após a realização do POST será gerado um `id` atumáicamente, nesse caso id = 1. Exemplo:
 
 ```json 
 {
