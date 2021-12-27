@@ -174,6 +174,8 @@ Usando o `POST` vamos passar as tasks. Exemplo:
 
 <img width="1000" src ="https://user-images.githubusercontent.com/82064724/147506442-ebb25064-35cc-470a-8089-1c16898ab6ab.gif">
 
+> Api finalizada ✅
+
 <br>
 
 ## 🛠 Tecnologias
