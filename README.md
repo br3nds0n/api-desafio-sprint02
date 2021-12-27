@@ -210,7 +210,7 @@ Desenvolvido com 🧡  por:
     <th><strong>Brendson Victor 👨‍🚀</strong></th>
   </tr>
    <td>
-      <a href="*">
+      <a href="https://github.com/br3nds0n">
         <img style="border-radius: 50%" width="168" height="140" src="https://user-images.githubusercontent.com/82064724/147268606-4fd3c629-8cb1-422b-a025-cf20b44930c7.jpeg" > <p align="left">
    <a href="https://instagram.com/breendson/" alt="Instagram">
   <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=[instagram]"/></a>
