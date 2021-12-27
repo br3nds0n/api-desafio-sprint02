@@ -24,6 +24,10 @@ class Task {
     this.updatedAt = resultado.updatedAt
 
   }
+
+  apagar () {
+    return TabelaTask.remover(this.id, this.projectId)
+  }
 }
 
 module.exports = Task

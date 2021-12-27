@@ -20,4 +20,16 @@ roteador.post('/', async (req, res)=> {
   res.send(task)
 })
 
+roteador.delete('/:id', async (req, res) => {
+  const dados = {
+    id: req.params.id,
+    projectId: req.params.idProject
+  }
+
+  const task = new Task(dados)
+  await task.apagar()
+  res.status(204)
+  res.end()
+})
+
 module.exports = roteador
