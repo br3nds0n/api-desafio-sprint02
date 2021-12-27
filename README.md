@@ -35,40 +35,44 @@ Agora vamos nessa! <code>#dreambigger🚀🧡</code>
 
 
  
-### ⚔️ Desafio
+### ⚔️ Project
 
-| Atributo        | Tipo     |
-| --------------- | -------- |
-| Identificador   | `id`     |
-| Titulo          | `texto`  |
-| Descrição       | `texto`  |
-| Data de criação | `data`   |
-| Tarefas         | `lista`  |
+| Atributo        | Tipo                   |
+| --------------- | ---------------------- |
+| Identificador   | `id`                   |
+| Titulo          | `texto`                |
+| Descrição       | `texto`                |
+| Data de criação | `data`                 |
+| Tarefas         | `lista`                |
+| Status          | `Pending, Error, Done` |
 
 **Operações necessárias:**
 
 - [x] Criar - POST
 - [x] Listar - GET
-  - [x] Busca por id
+  - [x] Buscar por id
 - [x] Editar - PUT
 - [x] Remover - DELETE
+- [x] Status http
 
-### 📓 Submissão
+### 📓 Tasks
 
 | Atributo                 | Tipo                   |
 | ------------------------ | ---------------------- |
 | Identificador            | `id`                   |
-| Identificador das tarefas| `idTask`               |
-| Relevancia da tarefa     | `texto`                |
+| Identificador do Prject  | `idProject`            |
+| Relevancia da tarefa     | `number`               |
+| completada               | `bolean`               |
 | Data de criação          | `data`                 |
-| Status                   | `Pending, Error, Done` |
 
-**Operações necessárias**
 
-- [x] Enviar
-- [x] Listar
+**Operações necessárias:**
+
+- [x] Enviar - POST
+- [x] Listar - GET
+  - [x] buscar por id 
   - [ ] Filtro: task 
-- [x] Status http
+
 
 ---
 
