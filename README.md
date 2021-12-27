@@ -19,7 +19,7 @@ Agora vamos nessa! <code>#dreambigger🚀🧡</code>
 
 <br>
 
-> <b>Status code:</b> 🚧 Em construção...  🚧
+> <b>Status code:</b> Finalizada!! ✅
  
  ---
  
@@ -71,8 +71,8 @@ Agora vamos nessa! <code>#dreambigger🚀🧡</code>
 - [x] Enviar - POST
 - [x] Listar - GET
   - [x] buscar por id 
-  - [ ] Filtro: task 
-- [ ] Status http
+  - [x] Filtro: task 
+- [x] Status http
 
 ---
 
