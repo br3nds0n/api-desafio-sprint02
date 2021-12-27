@@ -40,10 +40,10 @@ Agora vamos nessa! <code>#dreambigger🚀🧡</code>
 | Atributo        | Tipo                   |
 | --------------- | ---------------------- |
 | Identificador   | `id`                   |
-| Titulo          | `texto`                |
-| Descrição       | `texto`                |
-| Data de criação | `data`                 |
-| Tarefas         | `lista`                |
+| Titulo          | `string`               |
+| Descrição       | `string`               |
+| Data de criação | `date`                 |
+| Tarefas         | `list`                 |
 | Status          | `Pending, Error, Done` |
 
 **Operações necessárias:**
@@ -60,10 +60,10 @@ Agora vamos nessa! <code>#dreambigger🚀🧡</code>
 | Atributo                 | Tipo                   |
 | ------------------------ | ---------------------- |
 | Identificador            | `id`                   |
-| Identificador do Prject  | `idProject`            |
+| Identificador do Project | `foreign key`          |
 | Relevancia da tarefa     | `number`               |
 | completada               | `bolean`               |
-| Data de criação          | `data`                 |
+| Data de criação          | `date`                 |
 | Status                   | `Pending, Error, Done` |
 
 **Operações necessárias:**
