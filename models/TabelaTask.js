@@ -7,5 +7,8 @@ module.exports = {
         projectId: idProject
       }
     })
+  },
+  inserir (dados) {
+    return Modelo.create(dados)
   }
 }
