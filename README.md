@@ -200,14 +200,17 @@ As seguintes ferramentas/tecnologias foram usadas na construção e testagem do 
 
 ## ✏ Autor
 
-Obrigado a todos citados a cima por me ajudarem nessa nova etapa de desafios. <br>
+Obrigado a todos citados a cima por me ajudarem nessa nova etapa de desafios, sou 
+grato a cada um de vocês por todo apoio e atenção dada, ao decorrer da sprint.
+É muito gratificante participar desse programa, e ter o apoido dessa equipe.<code>#dreambigger🚀🧡</code> <br>
+
 Desenvolvido com 🧡  por:
 
 <div align=left style="width:100%">
 
 <table>
   <tr align=center>
-    <th><strong>Brendson Victor 👨‍🚀</strong></th>
+    <th><strong> Brendson Victor 👨‍🚀</strong></th>
   </tr>
    <td>
       <a href="https://github.com/br3nds0n">
