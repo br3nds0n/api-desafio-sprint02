@@ -65,9 +65,9 @@ Agora vamos nessa! <code>#dreambigger🚀🧡</code>
 
 **Operações necessárias**
 
-- [ ] Enviar
-- [ ] Listar
-  - [ ] Filtro: task
+- [x] Enviar
+- [x] Listar
+  - [ ] Filtro: task 
 - [x] Status http
 
 ---
