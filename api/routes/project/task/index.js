@@ -36,4 +36,20 @@ roteador.delete('/:id', async (req, res) => {
   res.end()
 })
 
+roteador.get('/:id', async (req, res, proximo) => {
+  try{
+    const dados = {
+      id: req.params.id,
+      projectId: req.project.id
+    }
+    const task = new Task(dados)
+    await task.carregar()
+    res.send(
+      JSON.stringify(task)
+    )
+}catch (erro) {
+  proximo(erro)
+}
+})
+
 module.exports = roteador
