@@ -3,7 +3,7 @@ const Tabela = require('../../../../models/TabelaTask')
 const Task = require('./Task')
 
 roteador.get('/', async (req, res) => {
-  const tasks = await Tabela.listar(req.params.idProject)
+  const tasks = await Tabela.listar(req.project.id)
   res.send(
     JSON.stringify(tasks)
   )
@@ -11,7 +11,7 @@ roteador.get('/', async (req, res) => {
 
 roteador.post('/', async (req, res, proximo)=> {
     try {
-      const idProject = req.params.idProject
+      const idProject = req.project.id
       const corpo = req.body
       const dados = Object.assign({}, corpo, { projectId: idProject})
       const task = new Task(dados)
@@ -27,7 +27,7 @@ roteador.post('/', async (req, res, proximo)=> {
 roteador.delete('/:id', async (req, res) => {
   const dados = {
     id: req.params.id,
-    projectId: req.params.idProject
+    projectId: req.project.id
   }
 
   const task = new Task(dados)

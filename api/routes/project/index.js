@@ -76,6 +76,21 @@ roteador.delete('/:idProject', async (req, res, proximo) => {
 })
 
 const roteadorTask = require('./task')
-roteador.use('/:idProject/task', roteadorTask)
+
+const verificarProject = async (req, res, proximo) => {
+  try {
+    const id = req.params.idProject
+    const project = new Project({ id: id })
+    await project.carregar()
+    req.project = project
+    proximo()
+
+  } catch (erro) {
+    proximo(erro)
+  }
+  
+}
+
+roteador.use('/:idProject/task', verificarProject, roteadorTask)
 
 module.exports = roteador
