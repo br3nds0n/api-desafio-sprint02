@@ -52,4 +52,24 @@ roteador.get('/:id', async (req, res, proximo) => {
 }
 })
 
+roteador.put('/:id', async (req, res, proximo) => {
+  try{
+    const dados = Object.assign(
+      {},
+      req.body,
+      {
+        id: req.params.id,
+        projectId: req.project.id,
+      }
+    )
+    const task = new Task(dados)
+    await task.atualizar()
+    res.status(204)
+    res.end()
+  }catch (erro){
+    proximo(erro)
+  }
+
+})
+
 module.exports = roteador

@@ -33,5 +33,13 @@ async pegarPorId (idTask, idProject) {
     }
 
     return encontrado
+  },
+  atualizar (dadosDaTask, dadosParaAtualizar) {
+    return Modelo.update(
+      dadosParaAtualizar,
+      {
+        where: dadosDaTask
+      }
+    )
   }
 }
