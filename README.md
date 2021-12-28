@@ -142,7 +142,7 @@ $ node api/data/createTable.js
 ### 📝 Testes (api)
 
 > Chegamos a fase de testes, no [postman](https://www.postman.com/downloads/) vamos acessar a url do projeto,
-que no teste é <http://localhost:3000/api/project>. Usando o método `POST` vamos criar o primeiro project. <br>
+que no teste é <http://localhost:3000/api/project>. Usando o método `POST` vamos criar o primeiro project. <br> <br>
 > Após a realização do POST será gerado um `id` atumáicamente, nesse caso id = 1. Exemplo:
 
 ```json 
@@ -170,9 +170,46 @@ Usando o `POST` vamos passar as tasks. Exemplo:
 ```
 
 ### ⚙ Resultado (api)
-> Se você seguiu os passos a cima terá esse resultado:
 
-<img width="1000" src ="https://user-images.githubusercontent.com/82064724/147506442-ebb25064-35cc-470a-8089-1c16898ab6ab.gif">
+> Após os passos acima vamos realizar dois `GETs`, sendo um GET para listar os projects, e um GET por id
+> para listar as tasks. E teremos esse resultado:
+
+<p align="center">
+<img width="900" src ="https://user-images.githubusercontent.com/82064724/147506442-ebb25064-35cc-470a-8089-1c16898ab6ab.gif">
+</p>
+
+> ⚠️Obs: No gif acima passei a rota `GET - http://localhost:3000/api/project/1` para listar as tasks junto com as informações do project. <br><br>
+Foi retornado:
+
+```json 
+{
+    "id": "1",
+    "title": "controle de estoque",
+    "description": "responsável por acompanhar o fluxo de mercadoria da empresa.",
+    "createdAt": "2021-12-27T18:52:56.000Z",
+    "updatedAt": "2021-12-27T18:52:56.000Z",
+    "tasks": [
+        {
+            "id": 1,
+            "title": "desenvolver endpoint para cadastro de produtos",
+            "taskRelevance": 10,
+            "completed": false,
+            "createdAt": "2021-12-27T19:01:19.000Z",
+            "updatedAt": "2021-12-27T19:01:19.000Z",
+            "projectId": 1
+        },
+        {
+            "id": 2,
+            "title": "desenvolver endpoint para realizar baixa de produtos",
+            "taskRelevance": 10,
+            "completed": false,
+            "createdAt": "2021-12-27T19:01:35.000Z",
+            "updatedAt": "2021-12-27T19:01:35.000Z",
+            "projectId": 1
+        }
+    ]
+}
+```
 
 <br>
 
@@ -184,9 +221,9 @@ As seguintes ferramentas/tecnologias foram usadas na construção e testagem do 
 
 | logo               | Framework                  | Version      |
 | :----------------- | :------------------------- | :----------: |
-| <a href="https://nodejs.org/pt-br/download/" target="_blank"><img align="center" alt="nodeJs" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/nodejs/nodejs-original.svg"></a>                   | NodeJs                     |  `16.x`      |
-| <a href="https://www.mysql.com/downloads/" target="_blank"><img align="center" alt="mysql" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original.svg"></a>            | MySQL                      |  `8.0`       | 
-| <a href="https://www.postman.com/downloads/" target="_blank"><img align="center" alt="postman" height="30" width="30" src="https://user-images.githubusercontent.com/82064724/147416090-89b4e7a3-2b78-417a-a154-f47940d23e38.png">            | Postman                    |  `9.6`       | 
+| <a href="https://nodejs.org/pt-br/download/" target="_blank"><img align="center" alt="nodeJs" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/nodejs/nodejs-original.svg"></a>                   | NodeJs                     |  `16.13.1`      |
+| <a href="https://www.mysql.com/downloads/" target="_blank"><img align="center" alt="mysql" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original.svg"></a>            | MySQL                      |  `8.0.0`       | 
+| <a href="https://www.postman.com/downloads/" target="_blank"><img align="center" alt="postman" height="30" width="30" src="https://user-images.githubusercontent.com/82064724/147416090-89b4e7a3-2b78-417a-a154-f47940d23e38.png">            | Postman                    |  `9.6.2`       | 
 | <a href="https://code.visualstudio.com/download" target="_blank"><img align="center" alt="VsCode" height="25" width="35" src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg"></a> | VsCode | `1.63.2` |
 
 
