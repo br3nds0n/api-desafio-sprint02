@@ -178,7 +178,35 @@ Usando o `POST` vamos passar as tasks. Exemplo:
 <img width="800" src ="https://user-images.githubusercontent.com/82064724/147506442-ebb25064-35cc-470a-8089-1c16898ab6ab.gif">
 </p>
 
-
+```json 
+{
+    "id": "1",
+    "title": "controle de estoque",
+    "description": "responsável por acompanhar o fluxo de mercadoria da empresa.",
+    "createdAt": "2021-12-27T18:52:56.000Z",
+    "updatedAt": "2021-12-27T18:52:56.000Z",
+    "tasks": [
+        {
+            "id": 1,
+            "title": "desenvolver endpoint para cadastro de produtos",
+            "taskRelevance": 10,
+            "completed": false,
+            "createdAt": "2021-12-27T19:01:19.000Z",
+            "updatedAt": "2021-12-27T19:01:19.000Z",
+            "projectId": 1
+        },
+        {
+            "id": 2,
+            "title": "desenvolver endpoint para realizar baixa de produtos",
+            "taskRelevance": 10,
+            "completed": false,
+            "createdAt": "2021-12-27T19:01:35.000Z",
+            "updatedAt": "2021-12-27T19:01:35.000Z",
+            "projectId": 1
+        }
+    ]
+}
+```
 
 <br>
 
