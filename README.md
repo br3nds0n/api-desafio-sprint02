@@ -172,7 +172,7 @@ Usando o `POST` vamos passar as tasks. Exemplo:
 ### ⚙ Resultado (api)
 
 > Após os passos acima vamos realizar dois `GETs`, sendo um GET para listar os projects, e um GET por id
-> para listar as tasks
+> para listar as tasks. E teremos esse resultado:
 
 <p align="center">
 <img width="800" src ="https://user-images.githubusercontent.com/82064724/147506442-ebb25064-35cc-470a-8089-1c16898ab6ab.gif">
