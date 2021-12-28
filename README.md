@@ -178,7 +178,7 @@ Usando o `POST` vamos passar as tasks. Exemplo:
 <img width="900" src ="https://user-images.githubusercontent.com/82064724/147506442-ebb25064-35cc-470a-8089-1c16898ab6ab.gif">
 </p>
 
-No gif acima passei a rota `GET - http://localhost:3000/api/project/1` para listar as tasks junto com as informações do project.
+> ⚠️Obs: No gif acima passei a rota `GET - http://localhost:3000/api/project/1` para listar as tasks junto com as informações do project. <br><br>
 Foi retornado:
 
 ```json 
