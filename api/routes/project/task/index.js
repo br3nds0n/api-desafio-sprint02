@@ -59,7 +59,7 @@ roteador.put('/:id', async (req, res, proximo) => {
       req.body,
       {
         id: req.params.id,
-        projectId: req.project.id,
+        projectId: req.project.id
       }
     )
     const task = new Task(dados)
@@ -70,6 +70,42 @@ roteador.put('/:id', async (req, res, proximo) => {
     proximo(erro)
   }
 
+})
+
+roteador.post('/:id/diminuir-relevancia', async (req, res, proximo) => {
+  try {
+    const task = new Task({
+      id: req.params.id,
+      projectId: req.project.id
+    })
+  
+    await task.carregar()
+    task.taskRelevance = task.taskRelevance - req.body.taskRelevance
+    await task.diminuirTarefas()
+
+    res.status(204)
+    res.end()
+  }catch (erro){
+    proximo(erro)
+  }
+})
+
+roteador.post('/:id/aumentar-relevancia', async (req, res, proximo) => {
+  try {
+    const task = new Task({
+      id: req.params.id,
+      projectId: req.project.id
+    })
+  
+    await task.carregar()
+    task.taskRelevance = task.taskRelevance + req.body.taskRelevance
+    await task.aumentarRelevancia()
+
+    res.status(204)
+    res.end()
+  }catch (erro){
+    proximo(erro)
+  }
 })
 
 module.exports = roteador

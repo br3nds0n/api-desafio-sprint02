@@ -1,4 +1,5 @@
 const Modelo = require('./ModeloTask')
+const instancia = require('../api/data')
 
 module.exports = {
   listar (idProject) {
@@ -41,5 +42,35 @@ async pegarPorId (idTask, idProject) {
         where: dadosDaTask
       }
     )
+  },
+  subtrair(idTask, idProject, campo, taskRelevance){
+    return instancia.transaction(async transacao => {
+      const task = await Modelo.findOne({
+        where: {
+          id: idTask,
+          projectId: idProject 
+        }
+      })
+
+      console.log(task.toJSON())
+      task[campo] = taskRelevance
+      await task.save()
+      return task
+    })
+  },
+  adicionar (idTask, idProject, campo, taskRelevance){
+    return instancia.transaction(async transacao => {
+      const task = await Modelo.findOne({
+        where: {
+          id: idTask,
+          projectId: idProject 
+        }
+      })
+
+      console.log(task.toJSON())
+      task[campo] = taskRelevance
+      await task.save()
+      return task
+    })
   }
 }

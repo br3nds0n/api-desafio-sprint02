@@ -81,6 +81,25 @@ class Task {
       dadosParaAtualizar
     )
   }
+
+  diminuirTarefas () {
+    return TabelaTask.subtrair(
+      this.id,
+      this.projectId,
+      'taskRelevance',
+      this.taskRelevance
+    )
+  }
+
+  aumentarRelevancia () {
+    return TabelaTask.adicionar(
+      this.id,
+      this.projectId,
+      'taskRelevance',
+      this.taskRelevance
+    )
+  }
+
 }
 
 module.exports = Task
